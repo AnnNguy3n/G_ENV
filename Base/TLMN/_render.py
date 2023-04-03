@@ -260,7 +260,10 @@ class Render:
     def enable(self):
         self.cmd_inp.disabled = False
         self.cmd_inp.value = ""
-        self.cmd_inp.focus()
+        try:
+            self.cmd_inp.focus()
+        except:
+            pass
         self.first.disabled = False
         self.pre.disabled = False
         self.next.disabled = False
