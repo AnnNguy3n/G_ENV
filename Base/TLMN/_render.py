@@ -159,6 +159,7 @@ class Render:
     def show_msg(self, *msg, end="\n"):
         with self.out_2:
             clear_output(wait=True)
+            print()
             print(*msg, end=end)
 
     def handle_click_first(self, _):

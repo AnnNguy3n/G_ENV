@@ -5,8 +5,8 @@ from setup import SHORT_PATH
 from Base.TLMN._env import __ACTIONS__, getActionSize, initEnv, check_player_hand, checkEnded, stepEnv, getAgentState
 IMG_PATH = SHORT_PATH + "Base/TLMN/playing_card_images/"
 
-BG_SIZE = (2100, 900)
-CARD_SIZE = (100, 140)
+BG_SIZE = (1680, 720)
+CARD_SIZE = (80, 112)
 
 class Sprites:
     def __init__(self) -> None:
